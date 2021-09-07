@@ -26,6 +26,13 @@ public class NullCheck {
         Employee el = new Employee("el",100);
         // 后续处理更改el对象当前状态
         assert el != null : "el is null!";
+
+        // 其他：
+        //   a. equals方法
+        if ("test".equals(el.toString())) {
+            System.out.println("equals");
+        }
+        //   b. TODO:Optional类（JDK8）
     }
 
     /**
@@ -55,6 +62,7 @@ public class NullCheck {
 //            action.printMessage();
         }
         // 对象模式调用1:内部类
+        //  -> 不用担心findAction返回是否为空，即可放心调用printMessage方法
         parser.findAction("age").printMessage();
         parser.findAction("unknown").printMessage();
 

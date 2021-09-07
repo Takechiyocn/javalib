@@ -1,3 +1,7 @@
+package squality.staticMethod;
+
+import squality.staticMethod.Employee;
+
 /**
  * @author kan
  * 静态方法，静态变量，静态常量相关

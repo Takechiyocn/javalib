@@ -1,3 +1,5 @@
+package squality.variableAccessor;
+
 import java.time.LocalDate;
 import java.util.Date;
 

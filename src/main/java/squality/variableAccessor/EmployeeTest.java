@@ -1,3 +1,7 @@
+package squality.variableAccessor;
+
+import squality.variableAccessor.Employee;
+
 import java.time.LocalDate;
 import java.util.Date;
 
